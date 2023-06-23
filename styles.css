@@ -3,5 +3,27 @@
 	width:200px;
 	height:2px;
 	background-color:black;
-	
+	animation: spin 5s linear infinite;
+	position: relative
+	top:100px
+}
+@keyframes spin {
+	0%{
+		transform: rotate(135deg);
+	}
+	20%{
+		transform:rotate(180deg);
+	}
+	40%{
+		transform:rotate(225deg);
+	}
+	60%{
+		transform:rotate(270deg);
+	}
+	80%{
+		transform:rotate(315deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
 }
