@@ -2,6 +2,7 @@
 function rotate(){
 	const line = document.getElementById("line")
 	line.style.height="2px"
+	line.style.width="200px"
 	line.style.backgroundColor="black"
 	line.style.position="absolute"
 	line.style.top="100px"
