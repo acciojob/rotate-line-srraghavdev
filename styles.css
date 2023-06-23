@@ -4,8 +4,8 @@
 	height:2px;
 	background-color:black;
 	animation: spin 5s linear infinite;
-	position: relative
-	top:100px
+	position: absolute;
+	top:100pxP;
 }
 @keyframes spin {
 	0%{
