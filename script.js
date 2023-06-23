@@ -9,23 +9,11 @@ function rotate(){
 	line.style.animation="spin 5s linear infinite"
 	const css = document.styleSheets[0]
 	css.insertRule(`@keyframes spin {
-	0%{
-		transform: rotate(135deg);
+	from{
+		transform: rotate(0deg);
 	}
-	20%{
-		transform:rotate(180deg);
-	}
-	40%{
-		transform:rotate(225deg);
-	}
-	60%{
-		transform:rotate(270deg);
-	}
-	80%{
-		transform:rotate(315deg);
-	}
-	100%{
-		transform:rotate(360deg);
+	to{ 
+		 transform: rotate(360deg);
 	}
 }`)
 }
